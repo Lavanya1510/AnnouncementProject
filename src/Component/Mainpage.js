@@ -5,6 +5,7 @@ import Header from './Header'
 function Mainpage() {
     let submitbutton=()=>{
         console.log('submitbutton')
+        window.location.href='/EmailCode'
     }
         return (
             <div>
@@ -17,8 +18,8 @@ function Mainpage() {
                                 <div className='titlehead'>Make Your Life Easy with Intranet!</div>
                                 <div className='desc'>To make a workspace from scratch, please confirm your email address.</div>
                                 <div className='toppadding'>
-                                    <input className='inputname' placeholder='name@email.com'/>
-                                    <label className='labelinput'>Email Address</label>
+                                    <input className='inputname' id="email" placeholder='name@email.com'/>
+                                    <label className='labelinput' for="email">Email Address</label>
                                 </div>
                                 <div>
                                     <button className='emailcon' onClick={()=>submitbutton()}>Confirm Email</button>

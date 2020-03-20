@@ -5,9 +5,7 @@ import OtpInput from 'react-otp-input'
 function EmailCode()  {
     const [otp, setOtp] = useState( '' );
     // setOtp('12345')
-    let submitbutton=()=>{
-        console.log('submitbutton')
-    }
+   
     let handleChange=(otp)=>{
         setOtp(otp)
     }
@@ -21,10 +19,6 @@ function EmailCode()  {
                             <div className='insidecard'>
                                 <div className='titlehead'>We've send you a mail!</div>
                                 <div className='desc'>To make a workspace from scratch, please confirm your email address.</div>
-                                {/* <div className='toppadding'>
-                                    <input className='inputname' placeholder='name@email.com'/>
-                                    <label className='labelinput'>Email Address</label>
-                                </div> */}
                                 <div className='toppadding'>
                                             <OtpInput
                                                 onChange={otp => handleChange(otp)}
@@ -36,8 +30,9 @@ function EmailCode()  {
                                             />
                                             <label className='labelinput'>Enter your verification code</label>
                                 </div>
-                                <div>
-                                    <button className='emailcon' onClick={()=>submitbutton()}>Confirm Email</button>
+                                <div className='topvalid'>
+                                    <test className='verify'>Please enter valid verification code</test>
+                                    <test className='resend'>Resend OTP</test>
                                 </div>
                             </div>
                         </Col>
@@ -48,10 +43,10 @@ function EmailCode()  {
 }
 
 const otpinline={
-    width:'45px',height:'45px',border:'1px solid #CECECE',borderRadius:'3px',color:'#0A0909',fontSize:'600'
+    width:'45px',height:'45px',border:'0.5px solid #A1A6A9',borderRadius:'2px',color:'#0A0909',fontSize:'600'
 }
 const otpinline1={
-    width:'45px',height:'45px',border:'1px solid #ED5901',borderRadius:'3px',color:'#0A0909',fontSize:'600'
+    width:'45px',height:'45px',border:'0.5px solid #C4250C',borderRadius:'2px',color:'#0A0909',fontSize:'600'
 }
 
 export default EmailCode

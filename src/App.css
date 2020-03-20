@@ -59,12 +59,40 @@ header{
   margin-top: 40px;
   position: relative;
 }
+.toppaddingforrem{
+  margin-top: 40px;
+  position: relative;
+}
+.labelrem{
+  padding-left: 5px;
+}
 .inputname{
   border: 0.5px solid #A1A6A9 ;
   width: 100%;
   padding:10px;
   height:50px;
   width: 450px;
+}
+.inputname1{
+  border: 0.5px solid #A1A6A9 ;
+  width: 100%;
+  padding:10px;
+  height:50px;
+  width: 210px;
+}
+.inputname:focus{
+  border: 0.5px solid #C4250C ;
+  width: 100%;
+  padding:10px;
+  height:50px;
+  width: 450px;
+}
+.inputname1:focus{
+  border: 0.5px solid #C4250C ;
+  width: 100%;
+  padding:10px;
+  height:50px;
+  width: 210px;
 }
 .labelinput{
   color:#A1A6A9;
@@ -74,6 +102,10 @@ header{
   top:-10px;
   left: 0px;
 }
+.inputname:focus + label { color:#C4250C; }
+.inputname1:focus + label { color:#C4250C; }
+
+
 .titlehead{
   color: #183247;
   font-size: 33px;
@@ -87,6 +119,12 @@ header{
   /* min-width: 451px;
   max-width: 451px; */
   padding-left: 50.67px;
+}
+#card2{
+  padding-left: 50.67px;
+}
+#card3{
+  padding-top: 59px;
 }
 .insidecard{
   min-width: 451px;
@@ -122,4 +160,17 @@ header{
 
 .box{
   padding:0px 20px
+}
+.topvalid{
+  padding-top:20px
+}
+.verify{
+  font-size: 13px;
+  color: rgba(196, 37, 12, 0.7);
+}
+.resend{
+  color: #00ccff;
+  padding-left: 5px;
+  font-size: 13px;
+
 }
