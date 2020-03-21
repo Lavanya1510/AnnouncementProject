@@ -1,0 +1,404 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  .trigger{
+      color: #FFFFFF;
+      float: right;
+  }
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  
+  .site-layout .site-layout-background {
+    background: #FFFFFF;
+    height: 50px;
+    margin:0;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: Open Sans;
+    font-weight: bold;
+    color: #183247;
+  }
+  .ant-menu-dark, .ant-menu-dark .ant-menu-sub{
+    background-color: #284255;
+  }
+  .ant-layout-sider{
+    background-color: #284255;
+  }
+  .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected{
+    background-color: #3BC163;
+  }
+  #layside{
+      height: 859px;
+  }
+  .sidehead{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #iconsize{
+      font-size: 18px;
+  }
+  #iconsize1{
+    font-size: 18px;
+  }
+  .site-layout-content{
+      background-color: #EBEEF0;
+      padding: 15px 16px;
+  }
+  .contentright{
+      float: right;
+  }
+  .contentrightbox{
+    float: right;
+    margin-left: 20px;
+    padding: 5px 13px;
+    background-color: #3BC163;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    height: 28px;
+    cursor: pointer;
+  }
+  .searchinput{
+    height: 28px;
+    width: 191px;
+    padding: 0px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 15px 16px;
+  }
+  .searchinput::-webkit-input-placeholder { 
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #A1A6A9;
+    font-size: 13px;
+ }
+ .searchinput::-moz-placeholder  { 
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #A1A6A9;
+    font-size: 13px;
+ }
+ .topspacing{
+     margin-top: 15px;
+     height: 112px;
+     background: #FFFFFF;
+     position: relative;
+     clear: right;
+     padding:15px
+ }
+ .overauto{
+     overflow: auto;
+ }
+ .round1{
+    background-color: rgba(59, 193, 99, 0.1);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3BC163;
+    font-size: 20px;
+ }
+ .spaceleft{
+   padding-left: 10px;
+ }
+ .descp{
+   font-size: 13px;
+   font-family: Open Sans;
+   color: #183247;
+ }
+ .deschead1{
+  float: right;
+  color: rgba(24, 50, 71, 0.4);
+  font-size: 13px;
+  font-family: Open Sans;
+ }
+ .deschead2{
+  float: right;
+  color: rgba(24, 50, 71, 0.4);
+  font-size: 13px;
+  font-family: Open Sans;
+  margin-right: 30px;
+ }
+ .descheadleft{
+  float: left;
+  color: #183247;
+  font-size: 15px;
+  font-family: Open Sans;
+  font-weight: bold;
+ }
+
+ .inputnameinitial{
+  border: 0.5px solid #A1A6A9 ;
+  width: 100%;
+  padding:10px;
+  height:28px;
+  width: 360px;
+  border-radius: 2px;
+  color:#183247;
+  font-family: Open Sans;
+  font-size: 13px;
+}
+
+.labelinput{
+  color:#A1A6A9;
+  font-size: 13px;
+  font-family: Open Sans;
+  position: absolute;
+  top:-10px;
+  left: 0px;
+}
+.toppaddinginitial{
+  padding-top: 13px;
+  position: relative;
+}
+.toppaddingcate{
+  padding-top: 13px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.cate1{
+  background-color: rgba(161, 166, 169, 0.0776721);
+  border-radius: 14px;
+  border: 0.5px solid #A1A6A9;
+  width: auto;
+  height: 28px;
+  color:#A1A6A9;
+  font-family: Open Sans;
+  font-size: 13px;
+}
+.cate1:active{
+  background-color: #3BC163;
+  border-radius: 14px;
+  border: 0.5px solid #A1A6A9;
+  width: auto;
+  height: 28px;
+  color:'#FFFFFF';
+  font-family: Open Sans;
+  font-size: 13px;
+}
+.cate2{
+  background-color: rgba(161, 166, 169, 0.0776721);
+  border-radius: 14px;
+  border: 0.5px solid #A1A6A9;
+  width: auto;
+  height: 28px;
+  margin-left: 15px;
+  color:#A1A6A9;
+  font-family: Open Sans;
+  font-size: 13px;
+}
+.cate2:active{
+  background-color: #3BC163;
+  border-radius: 14px;
+  border: 0.5px solid #A1A6A9;
+  width: auto;
+  height: 28px;
+  margin-left: 15px;
+  color:'#FFFFFF';
+  font-family: Open Sans;
+  font-size: 13px;
+}
+.inputnamedesp{
+  border: 0.5px solid #A1A6A9 ;
+  width: 100%;
+  padding:10px;
+  height:76px;
+  width: 360px;
+  border-radius: 2px;
+  color:#183247;
+  font-family: Open Sans;
+  font-size: 13px;
+}
+.toppaddingcheck{
+  padding-top: 10px;
+  position: relative;
+  margin-top: 30px;
+}
+.checklabel{
+  padding-left: 10px;
+  font-size: 13px;
+  color:#183247;
+  font-family: Open Sans;
+}
+.checkinput{
+  background-color: linear-gradient(180deg, rgba(235, 238, 240, 0.4) 0%, rgba(207, 207, 212, 0.4) 100%);
+  border: 0.5px solid #A1A6A9;
+  border-radius: 2px;
+  color:#183247;
+  font-family: Open Sans;
+  font-size: 13px;
+}
+.inputnamenotify{
+  border: 0.5px solid #A1A6A9 ;
+  width: 100%;
+  padding:10px;
+  height:76px;
+  width: 360px;
+  border-radius: 2px;
+  color:#183247;
+  font-family: Open Sans;
+  font-size: 13px;
+
+}
+.submitbutton{
+  margin-top: 60px;
+
+}
+.submit1{
+  float: right;
+  height: 28px;
+  width: 120px;
+  border:none;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.submit2{
+  float: right;
+  height: 28px;
+  width: 120px;
+  margin-left: 20px;
+  background-color: #3BC163;
+  border-radius: 2px;
+  border:none;
+  color:#FFFFFF;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.inputnamedate{
+  border: 0.5px solid #A1A6A9 ;
+  width: 100%;
+  height:28px;
+  width: 150px;
+  border-radius: 2px;
+  color:#183247;
+  font-family: Open Sans;
+  font-size: 13px;
+}
+.inputnametime{
+  border: 0.5px solid #A1A6A9 ;
+  width: 100%;
+  height:28px;
+  width: 150px;
+  border-radius: 2px;
+  color:#183247;
+  font-family: Open Sans;
+  font-size: 13px;
+}
+#googlecal{
+    color:#A1A6A9;
+    font-size: 13px;
+    font-family: Open Sans;
+}
+.clickbox{
+  text-decoration: none;
+  cursor: pointer;
+}
+#round2{
+  background:  rgba(59, 193, 99, 0.1);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: #3BC163;
+  font-size: 10px;
+}
+.desctitle{
+  color: #183247;
+  font-size: 15px;
+  font-family: Open Sans;
+  font-weight: bold;
+  margin-left: 10px;
+ }
+ .datetitle{
+  color: rgba(24, 50, 71, 0.4);
+  font-size: 13px;
+  font-family: Open Sans;
+  margin-left: 30px;
+ }
+ .msg{
+   color:#183247;
+   font-family: Open Sans;
+   font-size: 13px;
+   padding-bottom: 15px;
+   border-bottom: 0.5px solid rgba(161, 166, 169, 0.35);
+ }
+ .comments{
+  color: #183247;
+  font-size: 15px;
+  font-family: Open Sans;
+  font-weight: bold;
+  float: left;
+ }
+ .comments1{
+   float: right;
+   color:rgba(24, 50, 71, 0.4);
+   font-size: 15px;
+ }
+ .outercomments{
+   margin-bottom: 10px;
+   overflow: auto;
+ }
+ .datecmd{
+  color: rgba(24, 50, 71, 0.4);
+  font-size: 13px;
+  font-family: Open Sans;
+  margin-left: 65px;
+ }
+ .firstcmd{
+  background-color: rgba(235, 238, 240, 0.494254);
+  height: 74px;
+  width: 100%;
+  border: none;
+  padding-left: 15px;
+ }
+ .cmdhead{
+  bottom: 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+ }
+ .cmdbtn{
+  height: 74px;
+  width: 100%;
+  background-color: rgba(235, 238, 240, 0.494254);
+  border: none;
+  right: 0;
+ }

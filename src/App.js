@@ -8,6 +8,7 @@ import EmailCode from './Component/EmailCode'
 import Company from './Component/Company'
 import Personal from './Component/Personal'
 import Login from './Component/Login'
+import Sidebar from './Component/Sidebar'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/Company" component={Company} />
             <Route exact path="/Personal" component={Personal} />
             <Route exact path="/Login" component={Login} />
+            <Route exact path="/Announce" component={Sidebar} />
         </Switch>
     </div>
   );
