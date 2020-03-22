@@ -1,3 +1,6 @@
 // App
 export const LOADING_LOGIN = 'LOADING_LOGIN'
 export const DISPLAY_LOGIN = 'DISPLAY_LOGIN'
+// Announce
+export const LOADING_ANNOUNCE = 'LOADING_ANNOUNCE'
+export const DISPLAY_ANNOUNCE = 'DISPLAY_ANNOUNCE'

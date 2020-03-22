@@ -4,10 +4,29 @@ import {Col,Row} from 'antd'
 import OtpInput from 'react-otp-input'
 function EmailCode()  {
     const [otp, setOtp] = useState( '' );
-    // setOtp('12345')
+    const [constOtp, setConstOtp] = useState('123456')
+    const [valid, setValid] = useState(false)
+
    
     let handleChange=(otp)=>{
         setOtp(otp)
+        let split1=constOtp.split('')
+        let split2=otp.split('')
+        if(split1.length === split2.length){
+            for(let i=0;i<split1.length;i++){
+                    if(constOtp === otp){
+                        setValid(true)
+                        let log=localStorage.getItem('log')
+                        if(log === true){
+                            window.location.href='/Login'
+                        }else{
+                            window.location.href='/Company'
+                        }
+                    }
+            
+            }
+        }
+
     }
         return (
             <div>
@@ -30,10 +49,12 @@ function EmailCode()  {
                                             />
                                             <label className='labelinput'>Enter your verification code</label>
                                 </div>
-                                <div className='topvalid'>
-                                    <test className='verify'>Please enter valid verification code</test>
-                                    <test className='resend'>Resend OTP</test>
-                                </div>
+                                {!valid &&
+                                    <div className='topvalid'>
+                                        <test className='verify'>Please enter valid verification code</test>
+                                        <test className='resend'>Resend OTP</test>
+                                    </div>
+                                }
                             </div>
                         </Col>
                     </Row>

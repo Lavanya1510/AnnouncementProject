@@ -20,6 +20,22 @@ header{
   align-items: center;
   justify-content: center;
 }
+.headright3{
+  font-size: 13px;
+  background-color: #3BC163;
+  color:#FFFFFF;
+  font-family: Open Sans;
+  float: right;
+  height: 30px;
+  width:100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 40px;
+  border: none;
+  border-radius: 2px;
+}
 .headright2{
   font-size: 13px;
   color: #3BC163;
@@ -29,6 +45,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .headright1{
   font-size: 13px;
@@ -55,7 +72,7 @@ header{
   width: 15px;
 }
 .toppadding{
-  padding-top: 20px;
+  padding-top: 10px;
   margin-top: 40px;
   position: relative;
 }
@@ -72,6 +89,30 @@ header{
   padding:10px;
   height:50px;
   width: 450px;
+}
+.inputnamedom{
+  border: 0.5px solid #A1A6A9 ;
+  border-right: none;
+  width: 100%;
+  padding:10px;
+  height:50px;
+  width: 334px;
+}
+.inputnamedom:focus{
+  border: 0.5px solid #C4250C ;
+  border-right: none;
+  width: 100%;
+  padding:10px;
+  height:50px;
+  width: 334px;
+}
+.inputnamedom1{
+  border:none ;
+  background-color: linear-gradient(180deg, rgba(235, 238, 240, 0.4) 0%, rgba(207, 207, 212, 0.4) 100%);
+  width: 100%;
+  padding:10px;
+  height:50px;
+  width: 117px;
 }
 .inputname1{
   border: 0.5px solid #A1A6A9 ;
@@ -104,6 +145,7 @@ header{
 }
 .inputname:focus + label { color:#C4250C; }
 .inputname1:focus + label { color:#C4250C; }
+.inputnamedom:focus + label { color:#C4250C; }
 
 
 .titlehead{

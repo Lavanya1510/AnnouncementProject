@@ -16,6 +16,9 @@ function Sidebar() {
     let toggle = () => {
         setcollapsed(!collapsed)
     };
+    let logout=()=>{
+        window.location.href='/Login'
+    }
         return (
             <Layout id='layside'>
                 <Sider trigger={null} collapsible collapsed={collapsed}>
@@ -40,7 +43,7 @@ function Sidebar() {
                     </Menu.Item>
                     <Menu.Item key="2">
                         <UserOutlined id='iconsize1'/>
-                        <span className='sidehead'>Logout</span>
+                        <span className='sidehead' onClick={()=>logout()}>Logout</span>
                     </Menu.Item>
                 </Menu>
                 </Sider>
