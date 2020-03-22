@@ -236,7 +236,7 @@ function AnnounceContent(props) {
                                             <Col span={12} className='descheadleft'>{p.subject}</Col>
                                             <Col span={12} >
                                                 {p.expdate !== null &&<div className='deschead1'>{p.expdate}</div>}
-                                                <div className='deschead2'><MessageOutlined />&nbsp;3</div>
+                                                <div className='deschead2'><MessageOutlined />&nbsp;{p.comments?p.comments.length:0}</div>
                                                 <div className='deschead2' ><EditOutlined /></div>
                                             </Col>
                                         </Row>
